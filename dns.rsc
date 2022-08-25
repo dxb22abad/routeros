@@ -9,8 +9,6 @@ add comment=KEYWORD forward-to=198.18.0.1 regexp=".*(\\.)\?(google|facebook|bl\
     ogspot|jav|pinterest|pron|github|bbcfmt|uk-live|hbo).*" type=FWD
 add comment=KEYWORD forward-to=198.18.0.1 regexp=".*(\\.)\?(dropbox|hbo).*" \
     type=FWD
-add comment="Public CDN" forward-to=198.18.0.1 regexp=\
-    ".*(\\.)\?(aa|akamai).*" type=FWD
 add comment="Apple Services" forward-to=198.18.0.1 regexp=\
     ".*\\.(icloud|me)\\.com\$" type=FWD
 add comment="Apple Services" forward-to=198.18.0.1 regexp=".*(\\.)\?(appsto|ap\
