@@ -1,4 +1,5 @@
 /ip dns static
+add comment=bt forward-to=198.18.0.1 name=rarbgprx.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=rarbg.to type=FWD
 add comment=bt forward-to=198.18.0.1 name=rarbgunblocked.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=themoviedb.org type=FWD
