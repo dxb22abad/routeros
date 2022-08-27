@@ -1,4 +1,8 @@
 /ip dns static
+add comment=bt forward-to=198.18.0.1 name=rarbg.to type=FWD
+add comment=bt forward-to=198.18.0.1 name=rarbgunblocked.org type=FWD
+add comment=bt forward-to=198.18.0.1 name=themoviedb.org type=FWD
+add comment=bt forward-to=198.18.0.1 name=flipboard.com type=FWD
 add comment=County forward-to=198.18.0.1 regexp=".*(\\.)\?(.*|\\.)\?\\.(cu|at|\
     ca|nz|br|jp|in|tw|hk|mo|ph|vn|tr|my|sg|it|uk|us|kr|ru)\$" type=FWD
 add comment=County forward-to=198.18.0.1 regexp=\
