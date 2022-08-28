@@ -1,5 +1,5 @@
 /ip dns static
-
+add comment=bt forward-to=198.18.0.1 name=eztv.re type=FWD
 add comment=bt forward-to=198.18.0.1 name=dmhy.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=nyaa.si type=FWD
 add comment=bt forward-to=198.18.0.1 name=nyaa.lol type=FWD
