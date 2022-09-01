@@ -13,8 +13,6 @@ add comment=County forward-to=198.18.0.1 regexp=".*(\\.)\?(.*|\\.)\?\\.(cu|at|\
     ca|nz|br|jp|in|tw|hk|mo|ph|vn|tr|my|sg|it|uk|us|kr|ru)\$" type=FWD
 add comment=County forward-to=198.18.0.1 regexp=\
     ".*(\\.)\?(.*|\\.)\?\\.(fr|de)\$" type=FWD
-#add comment=Company forward-to=198.18.0.1 regexp=\
-    ".*(.*|\\.).*\\.(ms|be|fi)\$" type=FWD
 add comment=KEYWORD forward-to=198.18.0.1 regexp=".*(\\.)\?(google|facebook|bl\
     ogspot|jav|pinterest|pron|github|bbcfmt|uk-live|hbo).*" type=FWD
 add comment=KEYWORD forward-to=198.18.0.1 regexp=".*(\\.)\?(dropbox|hbo).*" \
