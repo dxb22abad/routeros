@@ -1,4 +1,7 @@
 /ip dns static
+
+add comment=bt forward-to=198.18.0.1 name=acg.rip type=FWD
+add comment=36dm.com forward-to=198.18.0.1 name=36dm.com type=FWD
 add comment=bt forward-to=198.18.0.1 name=xiaomi.eu type=FWD
 add comment=bt forward-to=198.18.0.1 name=torrentapi.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=eztv.re type=FWD
