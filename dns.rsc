@@ -10,6 +10,10 @@ add comment=bt forward-to=198.18.0.1 name=nyaa.si type=FWD
 add comment=bt forward-to=198.18.0.1 name=nyaa.lol type=FWD
 add comment=bt forward-to=198.18.0.1 name=rarbgprx.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=rarbg.to type=FWD
+add comment=bt forward-to=198.18.0.1 name=artworks.thetvdb.com type=FWD
+add comment=bt forward-to=198.18.0.1 name=www.thetvdb.com type=FWD
+add comment=bt forward-to=198.18.0.1 name=thetvdb.com type=FWD
+
 add comment=bt forward-to=198.18.0.1 name=rarbgunblocked.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=themoviedb.org type=FWD
 add comment=bt forward-to=198.18.0.1 name=flipboard.com type=FWD
