@@ -13,7 +13,10 @@ add comment=bt forward-to=198.17.0.1 name=rarbg.to type=FWD
 add comment=bt forward-to=198.17.0.1 name=artworks.thetvdb.com type=FWD
 add comment=bt forward-to=198.17.0.1 name=www.thetvdb.com type=FWD
 add comment=bt forward-to=198.17.0.1 name=thetvdb.com type=FWD
-
+add comment=AI forward-to=198.17.0.1 regexp=".*(\\.)\?(openai|chatgpt|openai-api)\\.(com|net)\$" type=FWD
+add comment=MediaDB forward-to=198.17.0.1 regexp=".*(\\.)\?(themoviedb|tmdb|tvdb)\\.(org|com)\$" type=FWD
+add comment=Plex forward-to=198.17.0.1 regexp=".*(\\.)\?(plex|plexapp)\\.(tv|com)\$" type=FWD
+add comment=YouTube forward-to=198.17.0.1 regexp=".*(\\.)\?(youtube|ytimg|googlevideo)\\.(com|net)\$" type=FWD
 add comment=bt forward-to=198.17.0.1 name=rarbgunblocked.org type=FWD
 add comment=bt forward-to=198.17.0.1 name=themoviedb.org type=FWD
 add comment=bt forward-to=198.17.0.1 name=flipboard.com type=FWD
